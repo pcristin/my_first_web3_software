@@ -1,0 +1,10 @@
+from config import Network, Arbitrum
+
+GAS_PRICE_MULTIPLIER = 1.3
+GAS_LIMIT_MULTIPLIER = 1.5
+
+WORKING_NETWORK: Network = Arbitrum
+
+UNLIMITED_APPROVE = False
+
+RETRY_ATTEMPTS = 3
