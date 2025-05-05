@@ -95,8 +95,8 @@ my_first_web3_software/
 │       └── odos_client.py      # Odos DEX integration
 ├── config/
 │   ├── __init__.py             # Configuration loading
-│   └── networks.py             # Network definitions
-│   └── config.py               # Configuration variables
+│   ├── networks.py             # Network definitions
+│   ├── config.py               # Configuration variables
 │   └── networks.py             # Network definitions
 ├── main.py                     # Main execution script
 ├── settings.py                 # Application settings
