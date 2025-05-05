@@ -12,7 +12,7 @@ A comprehensive solution for automated cross-platform DeFi operations, integrati
 
 ## Prerequisites
 
-- Python 3.8+
+- Python 3.11+ (tested on 3.11.12)
 - Bitget API credentials
 - Ethereum private key with funds for gas on Arbitrum
 - Basic understanding of DeFi operations
@@ -96,10 +96,10 @@ my_first_web3_software/
 ├── config/
 │   ├── __init__.py             # Configuration loading
 │   └── networks.py             # Network definitions
+│   └── config.py               # Configuration variables
+│   └── networks.py             # Network definitions
 ├── main.py                     # Main execution script
-├── config.py                   # Configuration variables
 ├── settings.py                 # Application settings
-├── networks.py                 # Network definitions
 └── requirements.txt            # Project dependencies
 ```
 
